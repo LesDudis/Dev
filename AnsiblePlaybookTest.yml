@@ -2,7 +2,7 @@
 
 - name: General Config
 
-  hosts: routers
+  hosts: Cisco_Switches
 
   tasks:
 
@@ -11,12 +11,11 @@
     ios_banner:
       banner: login
       text: |
-        Nicolas Cage is the
-        Tiger King
+        What da fuq all looking at
       state: present
 
   - name: Add loopback
 
     ios_interface:
-      name: Loopback21
+      name: Loopback1
       state: present 
