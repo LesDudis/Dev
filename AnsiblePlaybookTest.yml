@@ -11,7 +11,7 @@
     ios_banner:
       banner: login
       text: |
-        What da fuq all looking at
+        Hiya Buddy!
       state: present
 
   - name: Add loopback
